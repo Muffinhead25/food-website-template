@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*Navbar start*/
+li > a:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: whitesmoke;
+  text-align: left;
+  padding: 30px 45px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: "cookie";
+}
+/*Navbar end*/
+
+/*Before content start*/
+.content_wrapper {
+  position: relative;
+}
+
+.content_img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: inline-block;
+  filter: opacity(50%);
+}
+
+.centere.li > a:hover {
+  color: black;
+}
+
+.recipes_container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: goldenrod;
+}
+
+.recipes_container li a {
+  float: right;
+  display: block;
+  color: whitesmoke;
+  text-align: left;
+  padding: 30px 45px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "cookie";
+}
+
+.recipes_container .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Dancing Script", cursive;
+  font-size: 130px;
+  padding: 0%;
+  color: black;
+  text-align: center;
+}
+
+hr.rounded {
+  margin-top: 2%;
+  border-radius: 20px;
+  border-top: 10px solid;
+  color: goldenrod;
+  align-self: center;
+}
+
+.QP {
+  font-size: 30px;
+  color: rgb(129, 92, 12);
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  line-height: 0.1;
+  align-self: center;
+}
+
+.block:hover {
+  background-color: #000;
+}
+
+.recipes_container .block {
+  width: 30%;
+  border: none;
+  background-color: goldenrod;
+  color: black;
+  padding: 14px 30px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  box-align: center;
+  align-self: center;
+  font-family: "Dancing Script", cursive;
+}
+/*Before content end*/
+
+/*Content start*/
+
+div.recipes img {
+  margin: 0;
+  border-radius: 6px;
+  object-fit: cover;
+  filter: opacity(100%);
+  width: 100%;
+  height: 500px;
+}
+
+.recipes_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.card_recipe {
+  flex-basis: calc(25% - 20px);
+  margin: 10px;
+  box-shadow: 0 0 8px 2px #e6e6e6;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.text-wrapper {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.product-name {
+  color: rgb(158, 113, 0);
+  font-weight: 1000;
+  font-size: 25px;
+  font-family: "Satisfy", cursive;
+}
+
+/* Join us css */
+
+.join_us h1 {
+  font-family: "Lateef", cursive;
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+
+.join_us p {
+  font-family: "Scheherazade", serif;
+}
+
+.join_us h2 {
+  font-size: 20px;
+  font-family: "Scheherazade";
+}
+.join_us .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.join_us {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.join_us .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.join_us .card button:hover {
+  opacity: 0.7;
+}
+
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
+p.one {
+  border-style: solid;
+  border-color: goldenrod;
+  margin: 5px;
+  padding: 20px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* Join us css */
+
+/* Reservation CSS */
+.reservation_wrapper h1 {
+  color: black;
+  text-align: center;
+}
+
+.form_wrapper {
+  width: 100%;
+}
+
+.form_label {
+  font-family: "Markazi Text", serif;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form_label ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+}
+
+.form_label :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+}
+
+.form_label ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+}
+
+.form_label label {
+  font-size: 22px;
+  color: black;
+}
+
+input[type="date"],
+input[type="time"] {
+  padding: 10px 20px !important;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 40%;
+  display: block;
+  background-color: goldenrod;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Markazi Text", serif;
+  font-size: 22px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(197, 145, 13);
+}
+
+.reservation_wrapper {
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 40px;
+}
+
+/* Reservation CSS */
